@@ -21,7 +21,9 @@ npm start
 ```
 
 Após execução do projeto, este é o resultado esperado no navegador:
-![Png mostrando o resultado esperado ao rodar este projeto](./resultado.png)
+<p align="center">
+  <img src="./resultado.png"/>
+</p>
 
 ## Introdução
 
