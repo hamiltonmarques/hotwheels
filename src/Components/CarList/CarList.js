@@ -1,9 +1,14 @@
-import carsData from '../../../src/carsData'
+import { useContext, useState } from "react";
+import AppContext from "../Context/AppContext";
+import CarForm from '../../Components/CarForm/CarForm';
+import AppProvider from '../../Components/Context/AppProvider';
 
 function CarList() {
 
-    const cars = carsData.map((car, index) =>
-        <li key={index}><a href="#">{car.nome} - {car.marca} || </a>
+    const { dados } = useContext(AppContext);
+
+    const cars = dados.map((car, index) =>
+        <li key={index}><a href="#">{car.nome} - {car.marca} - {car.cor} - {car.ano} </a>
             <button>Excluir</button></li>)
 
     return (
