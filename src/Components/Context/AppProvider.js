@@ -6,7 +6,7 @@ const AppProvider = ({ children }) => {
     const [dados, setDados] = useState([...carsData])
 
     const fornecerDados = (novosDados) => {
-        setDados([...dados, novosDados])
+        setDados(novosDados)
     }
 
     return (

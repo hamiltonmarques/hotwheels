@@ -1,8 +1,8 @@
 function About() {
     return (
         <>
-            <h1>Página Inicial</h1>
-            <p>Bem-vindo ao CRUD HotWheels</p>
+            <h1 style={{ marginLeft: "20px" }}>Página Inicial</h1>
+            <p style={{ marginLeft: "20px" }}>Bem-vindo ao CRUD HotWheels</p>
         </>
     )
 }
