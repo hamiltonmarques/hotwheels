@@ -20,22 +20,22 @@ const CarDetail = () => {
                 <form id="carForm">
                     <label>
                         Nome
-                        <input type='text' value={carName} onChange={(e) => setCarName(e.target.value)} style={{ marginLeft: "5px" }}/>
+                        <input type='text' value={carName} onChange={(e) => setCarName(e.target.value)} style={{ marginLeft: "5px" }} />
                     </label>
                     <br />
                     <label>
                         Marca
-                        <input type='text' value={carMarca} onChange={(e) => setCarMarca(e.target.value)} style={{ marginLeft: "5px" }}/>
+                        <input type='text' value={carMarca} onChange={(e) => setCarMarca(e.target.value)} style={{ marginLeft: "5px" }} />
                     </label>
                     <br />
                     <label>
                         Cor
-                        <input type='text' value={carCor} onChange={(e) => setCarCor(e.target.value)} style={{ marginLeft: "5px" }}/>
+                        <input type='text' value={carCor} onChange={(e) => setCarCor(e.target.value)} style={{ marginLeft: "5px" }} />
                     </label>
                     <br />
                     <label>
                         Ano
-                        <input type='text' value={carAno} onChange={(e) => setCarAno(e.target.value)} style={{ marginLeft: "5px" }}/>
+                        <input type='text' value={carAno} onChange={(e) => setCarAno(e.target.value)} style={{ marginLeft: "5px" }} />
                     </label>
                     <div>
                         <button type="button" onClick={() => {
@@ -43,11 +43,10 @@ const CarDetail = () => {
                                 alert('Preencha todos os campos!')
                             }
                             else {
-                                const newCarList = dados.map(car => car.id === carData.id ? 
+                                const newCarList = dados.map(car => car.id === carData.id ?
                                     { id: car.id, nome: carName, marca: carMarca, cor: carCor, ano: carAno } : car)
 
                                 fornecerDados(newCarList)
-
                                 alert('Carro salvo com sucesso!')
                             }
                         }}>

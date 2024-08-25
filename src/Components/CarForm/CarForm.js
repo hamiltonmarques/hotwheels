@@ -17,22 +17,22 @@ const CarForm = () => {
                 <form id="carForm">
                     <label>
                         Nome
-                        <input type='text' value={carName} onChange={(e) => setCarName(e.target.value)} style={{ marginLeft: "5px" }}/>
+                        <input type='text' value={carName} onChange={(e) => setCarName(e.target.value)} style={{ marginLeft: "5px" }} />
                     </label>
                     <br />
                     <label>
                         Marca
-                        <input type='text' value={carMarca} onChange={(e) => setCarMarca(e.target.value)} style={{ marginLeft: "5px" }}/>
+                        <input type='text' value={carMarca} onChange={(e) => setCarMarca(e.target.value)} style={{ marginLeft: "5px" }} />
                     </label>
                     <br />
                     <label>
                         Cor
-                        <input type='text' value={carCor} onChange={(e) => setCarCor(e.target.value)} style={{ marginLeft: "5px" }}/>
+                        <input type='text' value={carCor} onChange={(e) => setCarCor(e.target.value)} style={{ marginLeft: "5px" }} />
                     </label>
                     <br />
                     <label>
                         Ano
-                        <input type='text' value={carAno} onChange={(e) => setCarAno(e.target.value) } style={{ marginLeft: "5px" }} />
+                        <input type='text' value={carAno} onChange={(e) => setCarAno(e.target.value)} style={{ marginLeft: "5px" }} />
                     </label>
                     <div>
                         <button type="button" onClick={() => {
@@ -49,7 +49,7 @@ const CarForm = () => {
                                 alert('Carro adicionado com sucesso!')
                             }
                         }}>
-                            Adicionar
+                            Salvar
                         </button>
                     </div>
                 </form>

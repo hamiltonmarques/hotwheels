@@ -2,7 +2,7 @@
 
 Para executar este projeto:
 
-1. Entre pasta hamilton-projeto-fase-1 no terminal:
+1. Entre na pasta hamilton-projeto-fase-1 no terminal:
 ```
 cd hamilton-projeto-fase-1
 ```
@@ -27,7 +27,7 @@ Após execução do projeto, este é o resultado esperado no navegador:
 
 ## Introdução
 
-Este projeto contém uma estrutura básica a partir do template CRA, com o objetivo de desenvolver um CRUD (Create, Read, Update, Delete) inicial para uma coleção carrinhos HotWheels.
+Este projeto contém uma estrutura básica a partir do template CRA, com o objetivo de desenvolver um CRUD inicial para uma coleção carrinhos HotWheels.
 
 ## Componentes
 
@@ -45,10 +45,10 @@ Os componentes estão no diretório `./src/components` e eles possuem as seguint
   - Descrição: este componente permite o compartilhamento de dados entre componentes.
 
 - AppProvider:
-  - Descrição: este componente carrega os dados iniciais da lista de carrinhos, contendo uma função para fornecer dados.
+  - Descrição: este componente carrega os dados iniciais de carrinhos, contendo uma função para fornecer dados.
 
 - Navbar:
-  - Descrição: este componente utiliza Link do React Router para mostrar as páginas disponíveis em uma barra de navegação
+  - Descrição: este componente utiliza o NavLink do React Router para mostrar as páginas disponíveis em uma barra de navegação
 
 ## Conclusão
 
